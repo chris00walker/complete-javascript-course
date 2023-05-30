@@ -56,6 +56,7 @@ var job = 'programmer';
 job = 'teacher';
 */
 
+/*
 // Math Operators
 const now = 2037;
 const ageSarah = now - 2018;
@@ -88,3 +89,43 @@ console.log(now - 1991 > now - 2018);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
+*/
+/*
+const firstName = 'Chris';
+const job = 'Entrepreneur';
+const birthYear = 1970;
+const year = 2023
+
+const chris = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(chris);
+
+const chrisNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(chrisNew);
+
+console.log(`Just a regular string...`);
+console.log('String with \n\
+multiple\n\
+lines');
+console.log(`String with
+multiple
+lines`);
+*/
+
+const age = 19;
+
+if (age >= 18) {
+    console.log('Sarah can apply for her drivers license 🚗')
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+}
+
+const birthYear = 2001;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
