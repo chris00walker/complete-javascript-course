@@ -1,0 +1,1 @@
+const description1 = `Barbados is in the Americas, and its population of 300,000 people speak English;`
