@@ -1,0 +1,12 @@
+
+const marksBMI = (marksBMI1 + marksBMI2) / 2;
+const johnsBMI = (johnsBMI1 + johnsBMI2) / 2;
+
+let output;
+if (marksBMI > johnsBMI) {
+    output = `Mark's BMI(27.09) is higher than John's BMI(25.81)!`;
+} else {
+    output = `John's BMI(25.81) is higher than Mark's(27.09)!`;
+}
+console.log(output);
+
