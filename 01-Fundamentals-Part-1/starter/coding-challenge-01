@@ -1,0 +1,25 @@
+const marksMass1 = 78;
+const marksHeight1 = 1.69;
+
+const johnsMass1 = 92;
+const johnsHeight1 = 1.95;
+
+const marksMass2 = 95;
+const marksHeight2 = 1.88;
+
+const johnsMass2 = 85;
+const johnsHeight2 = 1.76;
+
+const marksBMI1 = marksMass1 / marksHeight1 ** 2;
+const johnsBMI1 = johnsMass1 / johnsHeight1 ** 2;
+
+const marksBMI2 = marksMass2 / marksHeight2 ** 2;
+const johnsBMI2 = johnsMass2 / johnsHeight2 ** 2;
+
+const markHigherBMI = (marksBMI1 + marksBMI2) >= (johnsBMI1 + johnsBMI2);
+
+console.log(marksBMI1);
+console.log(johnsBMI1);
+console.log(marksBMI2);
+console.log(johnsBMI2);
+console.log(markHigherBMI);
