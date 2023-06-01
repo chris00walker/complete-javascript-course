@@ -1,0 +1,46 @@
+//Date set 1
+const dolphinsAvgScore = (96 + 108 + 89) / 3;
+const koalasAvgScore = (88 + 91 + 110) / 3;
+const minScore = 100;
+
+if (dolphinsAvgScore >= minScore && dolphinsAvgScore >= koalasAvgScore) {
+    console.log('Dolphins are the winners!');
+} else if (koalasAvgScore >= minScore && koalasAvgScore >= dolphinsAvgScore) {
+    console.log('Koalas are the winners!');
+} else {
+    console.log('It is a draw!')
+}
+
+/*
+//Data set 2
+const dolphinsAvgScore = (97 + 112 + 101) / 3;
+const koalasAvgScore = (109 + 95 + 123) / 3;
+const minScore = 100;
+
+if (dolphinsAvgScore >= minScore && dolphinsAvgScore >= koalasAvgScore) {
+    console.log('Dolphins are the winners!');
+} else if (koalasAvgScore >= minScore && koalasAvgScore >= dolphinsAvgScore) {
+    console.log('Koalas are the winners!');
+} else if (dolphinsAvgScore === koalasAvgScore && dolphinsAvgScore >= minScore && koalasAvgScore >= minScore) {
+    console.log('No team wins the trophy!');
+} else if (dolphinsAvgScore === koalasAvgScore && dolphinsAvgScore >= minScore && koalasAvgScore >= minScore) {
+    console.log('No team wins the trophy!');
+}
+*/
+
+/*
+//Data set 3
+const dolphinsAvgScore = (97 + 112 + 101) / 3;
+const koalasAvgScore = (109 + 95 + 106) / 3;
+const minScore = 100;
+
+if (dolphinsAvgScore >= minScore && dolphinsAvgScore >= koalasAvgScore) {
+    console.log('Dolphins are the winners!');
+} else if (koalasAvgScore >= minScore && koalasAvgScore >= dolphinsAvgScore) {
+    console.log('Koalas are the winners!');
+} else if (dolphinsAvgScore === koalasAvgScore && dolphinsAvgScore >= minScore && koalasAvgScore >= minScore) {
+    console.log('No team wins the trophy!');
+} else if (dolphinsAvgScore === koalasAvgScore && dolphinsAvgScore >= minScore && koalasAvgScore >= minScore) {
+    console.log('No team wins the trophy!');
+}
+*/
