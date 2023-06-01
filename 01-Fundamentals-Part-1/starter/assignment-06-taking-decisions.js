@@ -1,4 +1,4 @@
-
+/*
 const barbadosPopulation = 300000;
 let average;
 if (barbadosPopulation > 33000000) {
